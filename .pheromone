@@ -403,73 +403,32 @@
         "documentation_missing_for_feature_X": "problem",
         "github_branch_info_updated": "branch_info",
         "documentation_registry_updated": "doc_info",
-        "mcp_tool_execution_failed": "problem"
+        "mcp_tool_execution_failed": "problem",
+        "branch_push_failed": "problem"
       }
     }
   },
   "signals": [
     {
-      "id": "bootstrap-initial-signal-001",
-      "signalType": "project_initialization_needed",
-      "target": "NewProject",
-      "category": "need",
-      "strength": 0.9886222847999999,
-      "message": "System initialized. Project setup required.",
-      "data": {
-        "initial_directive_type": "user_blueprint",
-        "payload_path": "path/to/user_blueprint.md"
-      },
-      "timestamp_created": "2023-10-27T00:00:00Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
-    },
-    {
-      "id": "signal-ivec-spec-created-20250512030943",
-      "signalType": "feature_overview_spec_created",
-      "target": "Interactive Visual Exploration of Connections",
-      "category": "state",
-      "strength": 0.92236816,
-      "message": "Feature overview specification created for 'Interactive Visual Exploration of Connections'.",
-      "data": {
-        "feature_name": "Interactive Visual Exploration of Connections",
-        "spec_path": "docs/specs/InteractiveVisualExplorationOfConnections_overview.md"
-      },
-      "timestamp_created": "2025-05-12T03:09:43Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
-    },
-    {
-      "id": "signal-ivec-arch-defined-20250512030943",
-      "signalType": "architecture_defined_for_module_X",
-      "target": "Interactive Visual Exploration of Connections",
-      "category": "state",
-      "strength": 0.92236816,
-      "message": "High-level architecture defined for module 'Interactive Visual Exploration of Connections'.",
-      "data": {
-        "module_name": "Interactive Visual Exploration of Connections",
-        "architecture_doc_path": "docs/architecture/InteractiveVisualExplorationOfConnections_architecture.md"
-      },
-      "timestamp_created": "2025-05-12T03:09:43Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
-    },
-    {
       "id": "signal-iscd-testplancomplete-20250512035533",
       "signalType": "test_plan_complete_for_feature_X",
       "target": "Intelligent Search & Comprehensive Item Display",
       "category": "state",
-      "strength": 0.941192,
+      "strength": 0.9223681600000001,
       "message": "Test plan successfully created for feature 'Intelligent Search & Comprehensive Item Display'.",
       "data": {
         "feature_name": "Intelligent Search & Comprehensive Item Display",
         "test_plan_path": "docs/testplans/IntelligentSearchAndComprehensiveItemDisplay_testplan.md"
       },
       "timestamp_created": "2025-05-12T03:55:33Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
+      "last_updated_timestamp": "${nowISO}"
     },
     {
       "id": "signal-iscd-testsimplemented-20250512035533",
       "signalType": "tests_implemented_for_feature_X",
       "target": "Intelligent Search & Comprehensive Item Display",
       "category": "state",
-      "strength": 0.941192,
+      "strength": 0.9223681600000001,
       "message": "Initial unit tests implemented for feature 'Intelligent Search & Comprehensive Item Display'. Test files created.",
       "data": {
         "feature_name": "Intelligent Search & Comprehensive Item Display",
@@ -486,14 +445,14 @@
         "status_note": "TypeScript errors exist due to missing component modules (expected TDD outcome)."
       },
       "timestamp_created": "2025-05-12T03:55:33Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
+      "last_updated_timestamp": "${nowISO}"
     },
     {
       "id": "signal-iscd-doctestplan-20250512035533",
       "signalType": "documentation_file_registered",
       "target": "Intelligent Search & Comprehensive Item Display",
       "category": "state",
-      "strength": 0.941192,
+      "strength": 0.9223681600000001,
       "message": "Documentation file 'IntelligentSearchAndComprehensiveItemDisplay_testplan.md' (testplan) registered.",
       "data": {
         "file_path": "docs/testplans/IntelligentSearchAndComprehensiveItemDisplay_testplan.md",
@@ -501,14 +460,14 @@
         "associated_id": "Intelligent Search & Comprehensive Item Display"
       },
       "timestamp_created": "2025-05-12T03:55:33Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
+      "last_updated_timestamp": "${nowISO}"
     },
     {
       "id": "signal-iscd-codingcomplete-20250512041144",
       "signalType": "coding_complete_for_feature_X",
       "target": "Intelligent Search & Comprehensive Item Display",
       "category": "state",
-      "strength": 0.98,
+      "strength": 0.9604000000000001,
       "message": "Coding for feature 'Intelligent Search & Comprehensive Item Display' is complete. All relevant tests are passing. Ready for integration.",
       "data": {
         "feature_name": "Intelligent Search & Comprehensive Item Display",
@@ -531,14 +490,14 @@
         "feature_branch_name": "feature/intelligent-search-display"
       },
       "timestamp_created": "2025-05-12T04:11:44Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
+      "last_updated_timestamp": "${nowISO}"
     },
     {
       "id": "signal-iscd-branchupdate-20250512111423",
       "signalType": "github_branch_info_updated",
       "target": "Intelligent Search & Comprehensive Item Display",
       "category": "branch_info",
-      "strength": 0.99,
+      "strength": 0.9801,
       "message": "GitHub branch registry updated: branch 'feature/intelligent-search-display' added for feature 'Intelligent Search & Comprehensive Item Display'.",
       "data": {
         "branch_name": "feature/intelligent-search-display",
@@ -547,14 +506,40 @@
         "associated_feature_or_cr_id": "Intelligent Search & Comprehensive Item Display"
       },
       "timestamp_created": "2025-05-12T11:14:23Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
+      "last_updated_timestamp": "${nowISO}"
+    },
+    {
+      "id": "signal-iscd-branchlocal-${timestampForNewSignalId}",
+      "signalType": "branch_status_active_local",
+      "target": "Intelligent Search & Comprehensive Item Display",
+      "category": "state",
+      "strength": 1.0,
+      "message": "Feature branch 'feature/intelligent-search-display' created locally for 'Intelligent Search & Comprehensive Item Display'. Code committed.",
+      "data": {
+        "feature_name": "Intelligent Search & Comprehensive Item Display",
+        "branch_name": "feature/intelligent-search-display",
+        "base_branch": "main",
+        "status": "active_local",
+        "committed_paths": [
+          "NexusInsight/src/features/search/",
+          "NexusInsight/src/mocks/",
+          "NexusInsight/src/providers/",
+          "docs/specs/refined/",
+          "research/feature_IntelligentSearchAndComprehensiveItemDisplay_Research/"
+        ],
+        "original_directive_type": "feature_implementation_cycle_post_tdd",
+        "original_directive_path": "docs/specs/refined/IntelligentSearchAndComprehensiveItemDisplay_refined_overview.md",
+        "handoff_reason_code_source": "task_complete_needs_debug_review"
+      },
+      "timestamp_created": "${nowISO}",
+      "last_updated_timestamp": "${nowISO}"
     },
     {
       "id": "signal-mcpfail-integ-notgitrepo-20250512T112421Z",
       "signalType": "mcp_tool_execution_failed",
       "target": "Intelligent Search & Comprehensive Item Display",
       "category": "problem",
-      "strength": 1.2,
+      "strength": 1.14,
       "message": "Integration of feature branch `feature/intelligent-search-display` into `main` failed. Project directory `/Users/nateaune/Documents/code/wikidata-mcp` is not a git repository. Reported by `@Integrator_Module`.",
       "data": {
         "tool_name": "@Integrator_Module",
@@ -570,7 +555,33 @@
         "original_blueprint_path": "docs/specs/IntelligentSearchAndComprehensiveItemDisplay_overview.md"
       },
       "timestamp_created": "2025-05-12T11:24:21Z",
-      "last_updated_timestamp": "2025-05-12T11:24:21Z"
+      "last_updated_timestamp": "${nowISO}"
+    },
+    {
+      "id": "signal-iscd-pushfail-${timestampForNewSignalId}",
+      "signalType": "branch_push_failed",
+      "target": "Intelligent Search & Comprehensive Item Display",
+      "category": "problem",
+      "strength": 1.2,
+      "message": "Failed to push branch 'feature/intelligent-search-display' to remote 'origin' due to 'refusing to merge unrelated histories'. Feature: 'Intelligent Search & Comprehensive Item Display'. Requires debug review.",
+      "data": {
+        "feature_name": "Intelligent Search & Comprehensive Item Display",
+        "branch_name": "feature/intelligent-search-display",
+        "remote_name": "origin",
+        "error_details": "fatal: refusing to merge unrelated histories",
+        "committed_paths_on_local_branch": [
+          "NexusInsight/src/features/search/",
+          "NexusInsight/src/mocks/",
+          "NexusInsight/src/providers/",
+          "docs/specs/refined/",
+          "research/feature_IntelligentSearchAndComprehensiveItemDisplay_Research/"
+        ],
+        "handoff_reason_code_source": "task_complete_needs_debug_review",
+        "original_directive_type": "feature_implementation_cycle_post_tdd",
+        "original_directive_path": "docs/specs/refined/IntelligentSearchAndComprehensiveItemDisplay_refined_overview.md"
+      },
+      "timestamp_created": "${nowISO}",
+      "last_updated_timestamp": "${nowISO}"
     }
   ],
   "github_branch_registry": [
@@ -590,15 +601,15 @@
     {
       "branch_name": "feature/intelligent-search-display",
       "base_branch": "main",
-      "status": "active_on_remote",
-      "remote_exists": true,
+      "status": "active_local_push_failed",
+      "remote_exists": false,
       "associated_feature_or_cr_id": "Intelligent Search & Comprehensive Item Display",
       "creation_timestamp": "2025-05-12T11:14:23Z",
-      "last_activity_timestamp": "2025-05-12T11:14:23Z",
+      "last_activity_timestamp": "${nowISO}",
       "last_commit_hash": null,
       "merged_into": null,
       "merged_timestamp": null,
-      "description": "Feature branch for Intelligent Search & Comprehensive Item Display."
+      "description": "Feature branch for Intelligent Search & Comprehensive Item Display. Push to remote failed: unrelated histories."
     }
   ],
   "documentation_registry": [
