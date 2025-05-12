@@ -31,7 +31,7 @@ The research confirms the **technical feasibility** of NexusInsight's core conce
 
 While the initial research provided a strong foundation, several critical knowledge gaps must be addressed in subsequent research cycles to ensure project success:
 
-*   **Specific `wikidata-mcp` Capabilities:** Lack of detailed information on the current implementation status, performance benchmarks, and limitations of the `github.com/zzaebok/mcp-wikidata` server.
+*   **Specific `wikidata-mcp` Capabilities:** Lack of detailed information on the current implementation status, performance benchmarks, and limitations of the `github.com/zzaebok/mcp-wikidata` or `github.com/ebaenamar/wikidata-mcp` servers.
 *   **Optimized Visualization Techniques for Wikidata Scale:** Need for specific examples and best practices for applying visualization strategies (LOD, aggregation) to Wikidata data via a client-server model.
 *   **Visual Query Builder UX/Translation Details:** Further exploration of UI/UX patterns for Wikidata-specific visual queries and the precise logic for translation to SPARQL.
 *   **Optimal Frontend Technology Choices:** A more targeted recommendation for frontend/visualization libraries based on NexusInsight's specific needs and `wikidata-mcp` interaction.

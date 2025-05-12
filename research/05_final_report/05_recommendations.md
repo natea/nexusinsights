@@ -72,7 +72,7 @@ Based on the findings and analysis from the initial research phase, this section
 To address the critical knowledge gaps identified, the following targeted research activities are recommended:
 
 1.  **Deep Dive into `wikidata-mcp`:**
-    *   Engage with `zzaebok/mcp-wikidata` developers (or current maintainers).
+    *   Engage with `zzaebok/mcp-wikidata` or `ebaenamar/wikidata-mcp` developers (or current maintainers).
     *   Obtain detailed API documentation, performance data, and roadmap.
     *   If possible, conduct test queries against a live instance.
 2.  **Visual Query Builder UX Prototyping:**
