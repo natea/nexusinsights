@@ -69,34 +69,11 @@
   },
   "signals": [
     {
-      "id": "signal-sysval-iscd-main-20250512T143058000Z",
-      "signalType": "system_validation_complete",
-      "target": "IntelligentSearchAndComprehensiveItemDisplay",
-      "category": "state",
-      "strength": 0.8336271999999999,
-      "message": "System validation for feature 'IntelligentSearchAndComprehensiveItemDisplay' on branch 'main' completed successfully. All 63 tests across 16 test files passed. This confirms system stability and release readiness post-integration and bug fixes.",
-      "data": {
-        "feature_name": "IntelligentSearchAndComprehensiveItemDisplay",
-        "branch": "main",
-        "test_outcome": "successful",
-        "tests_passed": 63,
-        "test_files_count": 16,
-        "system_test_command": "cd NexusInsight && npm run test",
-        "integration_context": "Feature was previously integrated; this cycle focused on validation.",
-        "related_bug_fix_signal": "signal-niep-systestfail-20250512140026000",
-        "prior_integration_signal": "signal-isd-intcomp-20250512140026000",
-        "original_directive_spec_path": "docs/specs/IntelligentSearchAndComprehensiveItemDisplay_overview.md",
-        "handoff_reason_code": "task_complete_system_validation_successful_post_integration"
-      },
-      "timestamp_created": "2025-05-12T14:30:58.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
-    },
-    {
       "id": "signal-branchcreate-ivec-20250512T153048000Z",
       "signalType": "github_branch_info_updated",
       "target": "feature/interactive-visual-exploration",
       "category": "branch_info",
-      "strength": 0.8473321344609,
+      "strength": 0.836792066038291,
       "message": "New branch 'feature/interactive-visual-exploration' created locally for feature 'InteractiveVisualExplorationOfConnections'.",
       "data": {
         "branch_name": "feature/interactive-visual-exploration",
@@ -106,52 +83,14 @@
         "base_branch": "main"
       },
       "timestamp_created": "2025-05-12T15:30:48.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
-    },
-    {
-      "id": "signal-tpcomp-ivec-1715538018933-1",
-      "signalType": "test_plan_complete_for_feature_X",
-      "target": "InteractiveVisualExplorationOfConnections",
-      "category": "state",
-      "strength": 0.8507630225817856,
-      "message": "Test plan for feature 'InteractiveVisualExplorationOfConnections' created at docs/testplans/InteractiveVisualExplorationOfConnections_testplan.md.",
-      "data": {
-        "feature_name": "InteractiveVisualExplorationOfConnections",
-        "test_plan_path": "docs/testplans/InteractiveVisualExplorationOfConnections_testplan.md",
-        "generating_agent": "@Spec_To_TestPlan_Converter",
-        "original_directive_type": "new_feature_development",
-        "original_directive_payload_path": "docs/specs/InteractiveVisualExplorationOfConnections_overview.md"
-      },
-      "timestamp_created": "2025-05-12T15:20:18.933Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
-    },
-    {
-      "id": "signal-testimpl-ivec-1715538018933-2",
-      "signalType": "tests_implemented_for_feature_X",
-      "target": "InteractiveVisualExplorationOfConnections",
-      "category": "state",
-      "strength": 0.8507630225817856,
-      "message": "Tests implemented for feature 'InteractiveVisualExplorationOfConnections'. Test code for ExplorerPage component at NexusInsight/src/pages/ExplorerPage.test.tsx. Placeholder tests guide further development.",
-      "data": {
-        "feature_name": "InteractiveVisualExplorationOfConnections",
-        "test_file_paths": [
-          "NexusInsight/src/pages/ExplorerPage.test.tsx"
-        ],
-        "implementing_agent": "@Tester_TDD_Master",
-        "test_plan_path": "docs/testplans/InteractiveVisualExplorationOfConnections_testplan.md",
-        "status_detail": "Test readiness achieved, placeholder skipped tests for unimplemented functionalities.",
-        "original_directive_type": "new_feature_development",
-        "original_directive_payload_path": "docs/specs/InteractiveVisualExplorationOfConnections_overview.md"
-      },
-      "timestamp_created": "2025-05-12T15:20:18.933Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-docreg-tp-ivec-1715538018933-4",
       "signalType": "documentation_file_registered",
       "target": "docs/testplans/InteractiveVisualExplorationOfConnections_testplan.md",
       "category": "state",
-      "strength": 0.8507630225817856,
+      "strength": 0.8296821760101499,
       "message": "Documentation registry updated: New test plan docs/testplans/InteractiveVisualExplorationOfConnections_testplan.md registered for feature 'InteractiveVisualExplorationOfConnections'.",
       "data": {
         "file_path": "docs/testplans/InteractiveVisualExplorationOfConnections_testplan.md",
@@ -166,39 +105,14 @@
         ]
       },
       "timestamp_created": "2025-05-12T15:20:18.933Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
-    },
-    {
-      "id": "signal-docreg-optrep-ivec-20250512T161200000Z",
-      "signalType": "documentation_file_registered",
-      "target": "docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md",
-      "category": "state",
-      "strength": 0.941192,
-      "message": "Documentation registry updated: New optimization summary report [`docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md`](docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md) registered for feature 'InteractiveVisualExplorationOfConnections'.",
-      "data": {
-        "file_path": "docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md",
-        "file_name": "VisualExplorer_Optimization_Summary_20250512.md",
-        "document_type": "optimization_summary_report",
-        "description": "Summary of optimization efforts for the 'InteractiveVisualExplorationOfConnections' feature, including refactoring of GraphCanvas.tsx, NodeInfoPanel.tsx, and Tooltip.tsx.",
-        "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
-        "version": "1.0",
-        "keywords": [
-          "optimization",
-          "report",
-          "InteractiveVisualExplorationOfConnections",
-          "VisualExplorer",
-          "refactoring"
-        ]
-      },
-      "timestamp_created": "2025-05-12T16:12:00.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-codeattempt-ivec-1715543100000",
       "signalType": "coding_attempt_complete_for_feature",
       "target": "InteractiveVisualExplorationOfConnections",
       "category": "state",
-      "strength": 0.8854734336,
+      "strength": 0.863501597008,
       "message": "Partial coding attempt for 'InteractiveVisualExplorationOfConnections' by @Coder_Test_Driven. Work stopped due to token limit. Tooltip functionality partially implemented. Tests remain failing.",
       "data": {
         "feature_name": "InteractiveVisualExplorationOfConnections",
@@ -221,15 +135,15 @@
         "original_user_directive_payload_path": "docs/specs/InteractiveVisualExplorationOfConnections_overview.md"
       },
       "timestamp_created": "2025-05-12T15:45:00.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-codingcomplete-ivec-20250512T155438000Z",
       "signalType": "coding_complete_for_feature_X",
       "target": "InteractiveVisualExplorationOfConnections",
       "category": "state",
-      "strength": 0.9039207968,
-      "message": "Coding and unit tests for feature 'InteractiveVisualExplorationOfConnections' completed successfully. All tests in [`NexusInsight/src/pages/ExplorerPage.test.tsx`](NexusInsight/src/pages/ExplorerPage.test.tsx:1) are passing. Feature branch `feature/interactive-visual-exploration` is on remote.",
+      "strength": 0.881493912944,
+      "message": "Coding and unit tests for feature 'InteractiveVisualExplorationOfConnections' completed successfully. All tests in NexusInsight/src/pages/ExplorerPage.test.tsx are passing. Feature branch feature/interactive-visual-exploration is on remote.",
       "data": {
         "feature_name": "InteractiveVisualExplorationOfConnections",
         "status": "completed_successfully_tests_passing",
@@ -244,15 +158,40 @@
         "handoff_reason_code_from_orchestrator": "task_complete_coder_success"
       },
       "timestamp_created": "2025-05-12T15:54:38.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
+    },
+    {
+      "id": "signal-docreg-optrep-ivec-20250512T161200000Z",
+      "signalType": "documentation_file_registered",
+      "target": "docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md",
+      "category": "state",
+      "strength": 0.917843049344,
+      "message": "Documentation registry updated: New optimization summary report docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md registered for feature 'InteractiveVisualExplorationOfConnections'.",
+      "data": {
+        "file_path": "docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md",
+        "file_name": "VisualExplorer_Optimization_Summary_20250512.md",
+        "document_type": "optimization_summary_report",
+        "description": "Summary of optimization efforts for the 'InteractiveVisualExplorationOfConnections' feature, including refactoring of GraphCanvas.tsx, NodeInfoPanel.tsx, and Tooltip.tsx.",
+        "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
+        "version": "1.0",
+        "keywords": [
+          "optimization",
+          "report",
+          "InteractiveVisualExplorationOfConnections",
+          "VisualExplorer",
+          "refactoring"
+        ]
+      },
+      "timestamp_created": "2025-05-12T16:12:00.000Z",
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-sysval-ivec-main-20250512T161200000Z",
       "signalType": "system_validation_complete",
       "target": "InteractiveVisualExplorationOfConnections",
       "category": "state",
-      "strength": 0.9604,
-      "message": "System validation for feature 'InteractiveVisualExplorationOfConnections' on branch 'main' (post-integration) re-confirmed successful. All 67 tests across 16 test files passed. System test command: `cd NexusInsight && npm run test`.",
+      "strength": 0.93656113312,
+      "message": "System validation for feature 'InteractiveVisualExplorationOfConnections' on branch 'main' (post-integration) re-confirmed successful. All 67 tests across 16 test files passed. System test command: cd NexusInsight && npm run test.",
       "data": {
         "feature_name": "InteractiveVisualExplorationOfConnections",
         "branch": "main",
@@ -264,15 +203,15 @@
         "handoff_reason_code": "task_complete_integration_successful_tests_passed_optimization_reviewed"
       },
       "timestamp_created": "2025-05-12T16:12:00.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-opt-ivec-20250512T161200000Z",
       "signalType": "module_performance_optimized",
       "target": "InteractiveVisualExplorationOfConnections",
       "category": "state",
-      "strength": 0.9604,
-      "message": "Optimization review for 'InteractiveVisualExplorationOfConnections' completed. Existing optimizations in components like [`GraphCanvas.tsx`](NexusInsight/src/features/visual-explorer/GraphCanvas.tsx) deemed satisfactory pending Cytoscape.js integration. Detailed review report: [`docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md`](docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md). Original summary report: [`docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md`](docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md).",
+      "strength": 0.93656113312,
+      "message": "Optimization review for 'InteractiveVisualExplorationOfConnections' completed. Existing optimizations in components like GraphCanvas.tsx deemed satisfactory pending Cytoscape.js integration. Detailed review report: docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md. Original summary report: docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md.",
       "data": {
         "feature_name": "InteractiveVisualExplorationOfConnections",
         "optimized_components": [
@@ -287,51 +226,15 @@
         "review_notes": "Current state satisfactory pending Cytoscape.js integration in GraphCanvas.tsx."
       },
       "timestamp_created": "2025-05-12T16:12:00.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
-    },
-    {
-      "id": "signal-branchupdate-ivec-mergefailblock-20250512T115800Z",
-      "signalType": "github_branch_info_updated",
-      "target": "feature/interactive-visual-exploration",
-      "category": "branch_info",
-      "strength": 0.9801,
-      "message": "GitHub branch registry update: Branch `feature/interactive-visual-exploration` for feature 'InteractiveVisualExplorationOfConnections' confirmed as successfully merged into `main`. Integration report at [`docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md`](docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md).",
-      "data": {
-        "branch_name": "feature/interactive-visual-exploration",
-        "status": "merged",
-        "action": "merge_confirmed_already_present",
-        "target_branch": "main",
-        "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
-        "integration_report_path": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
-        "previous_status": "active_on_remote_conflicts"
-      },
-      "timestamp_created": "2025-05-12T11:58:00.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
-    },
-    {
-      "id": "signal-docreg-integfailrep-ivec-20250512T115800Z",
-      "signalType": "documentation_registry_updated",
-      "target": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
-      "category": "doc_info",
-      "strength": 0.9801,
-      "message": "Documentation registry updated: Integration status report [`docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md`](docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md) for 'InteractiveVisualExplorationOfConnections' confirmed relevant and reflects successful merge.",
-      "data": {
-        "file_path": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
-        "action": "updated",
-        "updated_description": "Integration status report detailing the SUCCESSFUL merge of feature 'InteractiveVisualExplorationOfConnections' (branch `feature/interactive-visual-exploration`) into `main`. The `main` branch was already up-to-date with `origin/feature/interactive-visual-exploration`. Remote `origin/main` was also up-to-date. No merge conflicts occurred.",
-        "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
-        "status": "success_report"
-      },
-      "timestamp_created": "2025-05-12T11:58:00.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-docreg-optrevrep-ivec-20250512162250000Z",
       "signalType": "documentation_file_registered",
       "target": "docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md",
       "category": "state",
-      "strength": 0.9702,
-      "message": "Documentation registry updated: New optimization review report [`docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md`](docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md) registered for feature 'InteractiveVisualExplorationOfConnections'.",
+      "strength": 0.94613043072,
+      "message": "Documentation registry updated: New optimization review report docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md registered for feature 'InteractiveVisualExplorationOfConnections'.",
       "data": {
         "file_path": "docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md",
         "file_name": "VisualExplorer_Optimization_Report_20250512.md",
@@ -348,14 +251,14 @@
         ]
       },
       "timestamp_created": "2025-05-12T16:22:50.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-sysval-ivec-main-reval-1715531316000",
       "signalType": "system_validation_complete",
       "target": "InteractiveVisualExplorationOfConnections",
       "category": "state",
-      "strength": 0.98,
+      "strength": 0.955709248,
       "message": "System re-validation for feature 'InteractiveVisualExplorationOfConnections' on branch 'main' completed successfully. All 67 tests across 16 test files passed. This re-affirms system stability and release readiness.",
       "data": {
         "feature_name": "InteractiveVisualExplorationOfConnections",
@@ -371,14 +274,50 @@
         "handoff_reason_code": "task_complete_integration_successful_tests_passed"
       },
       "timestamp_created": "2025-05-12T16:28:36.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
+    },
+    {
+      "id": "signal-branchupdate-ivec-mergefailblock-20250512T115800Z",
+      "signalType": "github_branch_info_updated",
+      "target": "feature/interactive-visual-exploration",
+      "category": "branch_info",
+      "strength": 0.96791003461,
+      "message": "GitHub branch registry update: Branch feature/interactive-visual-exploration for feature 'InteractiveVisualExplorationOfConnections' confirmed as successfully merged into main. Integration report at docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md.",
+      "data": {
+        "branch_name": "feature/interactive-visual-exploration",
+        "status": "merged",
+        "action": "merge_confirmed_already_present",
+        "target_branch": "main",
+        "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
+        "integration_report_path": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
+        "previous_status": "active_on_remote_conflicts"
+      },
+      "timestamp_created": "2025-05-12T11:58:00.000Z",
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
+    },
+    {
+      "id": "signal-docreg-integfailrep-ivec-20250512T115800Z",
+      "signalType": "documentation_registry_updated",
+      "target": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
+      "category": "doc_info",
+      "strength": 0.96791003461,
+      "message": "Documentation registry updated: Integration status report docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md for 'InteractiveVisualExplorationOfConnections' confirmed relevant and reflects successful merge.",
+      "data": {
+        "file_path": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
+        "action": "updated",
+        "updated_description": "Integration status report detailing the SUCCESSFUL merge of feature 'InteractiveVisualExplorationOfConnections' (branch feature/interactive-visual-exploration) into main. The main branch was already up-to-date with origin/feature/interactive-visual-exploration. Remote origin/main was also up-to-date. No merge conflicts occurred.",
+        "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
+        "status": "success_report"
+      },
+      "timestamp_created": "2025-05-12T11:58:00.000Z",
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     },
     {
       "id": "signal-nexusinsight-phaseready-20250512T163804000Z",
       "signalType": "system_validation_complete",
       "target": "NexusInsight_Project",
       "category": "state",
-      "strength": 1.0,
+      "strength": 0.975148928,
       "message": "Project NexusInsight has completed main development, integration, and system validation of core features ('IntelligentSearchAndComprehensiveItemDisplay', 'InteractiveVisualExplorationOfConnections'). The project is now ready to transition to the 'Refinement & Maintenance' phase as per the Master Project Plan.",
       "data": {
         "project_name": "NexusInsight",
@@ -393,7 +332,73 @@
         "handoff_reason_code_from_orchestrator": "task_complete"
       },
       "timestamp_created": "2025-05-12T16:38:04.000Z",
-      "last_updated_timestamp": "2025-05-12T16:38:04.000Z"
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
+    },
+    {
+      "id": "signal-gbr-main-push-20250512T165149000Z",
+      "signalType": "github_branch_info_updated",
+      "target": "main",
+      "category": "branch_info",
+      "strength": 0.99753611111,
+      "message": "Branch 'main' updated on remote 'origin' with commit 'be9d876'. State is clean and synchronized.",
+      "data": {
+        "branch_name": "main",
+        "status": "active_on_remote",
+        "action": "pushed_to_remote",
+        "commit_hash": "be9d876",
+        "remote_name": "origin",
+        "associated_feature_or_cr_id": "RepoStateFix-MainUncommitted-20250512125000"
+      },
+      "timestamp_created": "2025-05-12T16:51:49.000Z",
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
+    },
+    {
+      "id": "signal-crresolved-RepoStateFix-MainUncommitted-20250512125000-20250512T165149000Z",
+      "signalType": "project_state_update",
+      "target": "RepoStateFix-MainUncommitted-20250512125000",
+      "category": "state",
+      "strength": 0.99507222222,
+      "message": "Change Request 'RepoStateFix-MainUncommitted-20250512125000' (Resolve repository state issue) completed. 'main' branch uncommitted changes resolved, committed (be9d876), and pushed.",
+      "data": {
+        "change_request_identifier": "RepoStateFix-MainUncommitted-20250512125000",
+        "resolution_summary": "Uncommitted changes on 'main' branch were staged, committed (be9d876), and pushed to origin/main. Branch is now clean, stable, and synchronized.",
+        "commit_hash": "be9d876",
+        "affected_branch": "main",
+        "modified_files": [
+          ".pheromone",
+          "NexusInsight/src/features/visual-explorer/GraphCanvas.tsx",
+          "NexusInsight/src/features/visual-explorer/NodeInfoPanel.tsx",
+          "NexusInsight/src/features/visual-explorer/components/Tooltip.tsx",
+          "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
+          "docs/reports/optimizer/GraphCanvas_Optimization_Report_20250512.md"
+        ],
+        "original_user_directive_type": "Resolve repository state issue",
+        "original_change_request_payload_path": "",
+        "handoff_reason_code_from_orchestrator": "task_complete_repo_state_resolved"
+      },
+      "timestamp_created": "2025-05-12T16:51:49.000Z",
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
+    },
+    {
+      "id": "signal-nexusinsight-rmphaseactive-20250512T170636000Z",
+      "signalType": "project_state_update",
+      "target": "NexusInsight",
+      "category": "state",
+      "strength": 1.0,
+      "message": "Project NexusInsight formally transitioned to 'Refinement & Maintenance' phase. Orchestrator '🔄 Orchestrator (Refinement & Maint - NL Summary to Scribe)' is active and acknowledges readiness. Triggered by signal-nexusinsight-phaseready-20250512T163804000Z.",
+      "data": {
+        "project_name": "NexusInsight",
+        "event_type": "phase_transition_acknowledged",
+        "current_phase": "Refinement & Maintenance",
+        "activated_orchestrator_summary": "🔄 Orchestrator (Refinement & Maint - NL Summary to Scribe) active.",
+        "master_project_plan_path": "docs/Master_Project_Plan.md",
+        "triggering_signal_ref": "signal-nexusinsight-phaseready-20250512T163804000Z",
+        "original_user_directive_type": "ProjectPhaseTransitionInitiation",
+        "original_change_request_payload_summary": "Formally transition NexusInsight to Refinement & Maintenance phase, acknowledge orchestrator readiness.",
+        "handoff_reason_code": "project_phase_transition_to_refinement_maintenance_complete"
+      },
+      "timestamp_created": "2025-05-12T17:06:36.000Z",
+      "last_updated_timestamp": "2025-05-12T17:06:36.000Z"
     }
   ],
   "github_branch_registry": [
@@ -404,11 +409,11 @@
       "associated_feature_or_cr_id": "project_mainline",
       "remote_exists": true,
       "creation_timestamp": "2023-10-27T00:00:00Z",
-      "last_activity_timestamp": "2025-05-12T16:12:00.000Z",
-      "last_commit_hash": "82ac704",
+      "last_activity_timestamp": "2025-05-12T16:51:49.000Z",
+      "last_commit_hash": "be9d876",
       "merged_into": null,
       "merged_timestamp": null,
-      "description": "Main development branch for the project. Reconciled and pushed to origin."
+      "description": "Main development branch for the project. Last commit be9d876 pushed to origin (2025-05-12T16:51:49.000Z), resolving uncommitted changes."
     },
     {
       "branch_name": "feature/intelligent-search-display",
@@ -449,12 +454,12 @@
       "file_path": "docs/reports/integration/Integration_Status_Report_feature_intelligent-search-display_to_main.md",
       "file_name": "Integration_Status_Report_feature_intelligent-search-display_to_main.md",
       "document_type": "integration_report",
-      "description": "Integration status report detailing the successful merge of feature 'intelligent-search-display' (branch `feature/intelligent-search-display`) into `main`, including resolution of .gitignore and unrelated histories conflicts. System tests partially passed post-merge.",
+      "description": "Integration status report detailing the successful merge of feature 'intelligent-search-display' (branch feature/intelligent-search-display) into main, including resolution of .gitignore and unrelated histories conflicts. System tests partially passed post-merge.",
       "associated_feature_or_cr_id": "Intelligent Search & Comprehensive Item Display",
       "version": "1.0",
       "creation_timestamp": "2025-05-12T13:51:55.000Z",
       "last_updated_timestamp": "2025-05-12T16:22:50.000Z",
-      "keywords": ["integration report", "merge conflict", "feature/intelligent-search-display", "main", ".gitignore", "successful merge", "partial test pass"]
+      "keywords": ["integration", "report", "intelligent search", "main"]
     },
     {
       "file_path": "docs/testplans/InteractiveVisualExplorationOfConnections_testplan.md",
@@ -465,18 +470,10 @@
       "version": "1.0",
       "creation_timestamp": "2025-05-12T15:20:18.933Z",
       "last_updated_timestamp": "2025-05-12T16:22:50.000Z",
-      "keywords": ["test plan", "InteractiveVisualExplorationOfConnections"]
-    },
-    {
-      "file_path": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
-      "file_name": "Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
-      "document_type": "integration_report",
-      "description": "Integration status report detailing the SUCCESSFUL merge of feature 'InteractiveVisualExplorationOfConnections' (branch `feature/interactive-visual-exploration`) into `main`. The `main` branch was already up-to-date with `origin/feature/interactive-visual-exploration`. Remote `origin/main` was also up-to-date. No merge conflicts occurred.",
-      "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
-      "version": "1.0",
-      "creation_timestamp": "2025-05-12T11:58:00.000Z",
-      "last_updated_timestamp": "2025-05-12T16:22:50.000Z",
-      "keywords": ["integration report", "success", "feature/interactive-visual-exploration", "main"]
+      "keywords": [
+        "test plan",
+        "InteractiveVisualExplorationOfConnections"
+      ]
     },
     {
       "file_path": "docs/reports/optimizer/VisualExplorer_Optimization_Summary_20250512.md",
@@ -487,7 +484,13 @@
       "version": "1.0",
       "creation_timestamp": "2025-05-12T16:12:00.000Z",
       "last_updated_timestamp": "2025-05-12T16:22:50.000Z",
-      "keywords": ["optimization", "report", "InteractiveVisualExplorationOfConnections", "VisualExplorer", "refactoring"]
+      "keywords": [
+        "optimization",
+        "report",
+        "InteractiveVisualExplorationOfConnections",
+        "VisualExplorer",
+        "refactoring"
+      ]
     },
     {
       "file_path": "docs/reports/optimizer/VisualExplorer_Optimization_Report_20250512.md",
@@ -498,7 +501,38 @@
       "version": "1.0",
       "creation_timestamp": "2025-05-12T16:22:50.000Z",
       "last_updated_timestamp": "2025-05-12T16:22:50.000Z",
-      "keywords": ["optimization", "report", "review", "InteractiveVisualExplorationOfConnections", "VisualExplorer"]
+      "keywords": [
+        "optimization",
+        "report",
+        "review",
+        "InteractiveVisualExplorationOfConnections",
+        "VisualExplorer"
+      ]
+    },
+    {
+      "file_path": "docs/reports/integration/Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
+      "action": "updated",
+      "updated_description": "Integration status report detailing the SUCCESSFUL merge of feature 'InteractiveVisualExplorationOfConnections' (branch feature/interactive-visual-exploration) into main. The main branch was already up-to-date with origin/feature/interactive-visual-exploration. Remote origin/main was also up-to-date. No merge conflicts occurred.",
+      "associated_feature_or_cr_id": "InteractiveVisualExplorationOfConnections",
+      "status": "success_report",
+      "file_name": "Integration_Status_Report_feature_interactive-visual-exploration_to_main.md",
+      "document_type": "integration_report",
+      "description": "Integration status report detailing the SUCCESSFUL merge of feature 'InteractiveVisualExplorationOfConnections' (branch feature/interactive-visual-exploration) into main. The main branch was already up-to-date with origin/feature/interactive-visual-exploration. Remote origin/main was also up-to-date. No merge conflicts occurred.",
+      "version": "1.0",
+      "creation_timestamp": "2025-05-12T11:58:00.000Z",
+      "last_updated_timestamp": "2025-05-12T16:22:50.000Z",
+      "keywords": ["integration", "report", "interactive visual exploration", "main"]
+    },
+    {
+      "file_path": "docs/comprehension_reports/ExplorerPage_bug_signal-niep-systestfail-20250512140026000_comprehension_report.md",
+      "file_name": "ExplorerPage_bug_signal-niep-systestfail-20250512140026000_comprehension_report.md",
+      "document_type": "comprehension_report",
+      "description": "Code comprehension report for ExplorerPage.tsx and related files, focusing on bug signal-niep-systestfail-20250512140026000.",
+      "associated_feature_or_cr_id": "signal-niep-systestfail-20250512140026000",
+      "version": "1.0",
+      "creation_timestamp": "2025-05-12T14:30:58.000Z",
+      "last_updated_timestamp": "2025-05-12T16:22:50.000Z",
+      "keywords": ["comprehension", "report", "ExplorerPage", "bugfix", "signal-niep-systestfail-20250512140026000"]
     }
   ]
 }
